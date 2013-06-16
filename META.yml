@@ -1,5 +1,5 @@
 ---
-abstract: "It's new $module"
+abstract: 'Google auth integration for Amon2'
 author:
   - 'ntakanashi <ntakanashi666 at gmail.com>'
 build_requires:
@@ -27,7 +27,7 @@ no_index:
 provides:
   Amon2::Auth::Site::Google:
     file: lib/Amon2/Auth/Site/Google.pm
-    version: 0.01
+    version: 0.02
 requires:
   Amon2::Auth: 0.03
   JSON: 2.59
@@ -38,4 +38,4 @@ resources:
   bugtracker: https://github.com/ntakanashi/Amon2-Auth-Site-Google/issues
   homepage: https://github.com/ntakanashi/Amon2-Auth-Site-Google
   repository: git://github.com/ntakanashi/Amon2-Auth-Site-Google.git
-version: 0.01
+version: 0.02
